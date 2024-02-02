@@ -1,0 +1,12 @@
+#En el inicio del programa de presenta "def" lo cual el inicio de una funcion la cual esta nombrada como Act al ser la presentada para el inicio de tarea. 
+def Act():
+    #En el inicio se muestra una variable que igual a que solo puede dar numeros, e input se usa para que la entrada ingresada en numero lo convierta a texto,
+    numero= int(input("Introduzca la posicion deseada de la sucesión  fibonacci: "))
+    #En la variable resultado se guardara lo ingresado por el usuario deberia mandarlo a numero.
+    resultado = fibonacci(numero)
+    #ahora vemos un print lo cual va a tomar lo datos de la sucesion de datos en las variables de resultado y numero y los depositara en los corchetes y los almacenara como una lista
+    print("Fibonacci({}) = {}".format(numero,resultado))
+    #lo que vomos a continuacion es una sentencia "if __name__ == '__main__'"lo cual nos permite manejar datos desde un interprete. 
+    if __name__ == '__main__':
+    #se cierra la funcion de el inicio 
+     Act()
